@@ -2,7 +2,7 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-- v0.1.0
+- v0.1.1
 
 ## Commands
 
