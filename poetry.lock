@@ -203,6 +203,20 @@ i18n = ["babel (>=2.9.0)"]
 min-versions = ["babel (==2.9.0)", "click (==7.0)", "colorama (==0.4)", "ghp-import (==1.0)", "importlib-metadata (==4.3)", "jinja2 (==2.11.1)", "markdown (==3.2.1)", "markupsafe (==2.0.1)", "mergedeep (==1.3.4)", "packaging (==20.5)", "pyyaml (==5.1)", "pyyaml-env-tag (==0.1)", "typing-extensions (==3.10)", "watchdog (==2.0)"]
 
 [[package]]
+name = "mkdocs-static-i18n"
+version = "0.56"
+description = "MkDocs i18n plugin using static translation markdown files"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "mkdocs-static-i18n-0.56.tar.gz", hash = "sha256:3ff92541630dd24d561841bbc0546b3c937bfecf4d6b2abb8649e57e023baaa0"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.4.2"
+
+[[package]]
 name = "packaging"
 version = "23.1"
 description = "Core utilities for Python packages"
@@ -365,4 +379,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "05e0027d489f56c7a53fab708ff0a16bb2e97f913140f528ecd281926f4b5406"
+content-hash = "6aef2afdd2a264fb349e20bcc23e41192f15bed502d8e204a17fbd96ca6443b0"

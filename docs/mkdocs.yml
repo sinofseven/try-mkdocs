@@ -2,4 +2,22 @@ site_name: My Docs
 theme:
   name: readthedocs
   titles_only: true
-plugins: []
+
+nav:
+  - Introduction:
+    - index.md
+  - API Reference:
+    - reference/index.en.md
+
+plugins:
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        ja: 日本語
+      nav_translations:
+        ja:
+          site_name: マイドキュメント
+          Introduction: はじめに
+          API Reference: APIリファレンス
+      

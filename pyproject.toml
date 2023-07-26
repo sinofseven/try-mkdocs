@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 mkdocs = "^1.4.3"
+mkdocs-static-i18n = "^0.56"
 
 
 [build-system]
